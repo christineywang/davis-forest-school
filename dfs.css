@@ -30,7 +30,12 @@ h1 {
   font-family: 'Amatic SC';
   font-size: 6em;
   margin-bottom: -30px;
+}
 
+.submit-text {
+  color: #505464 !important;
+  font-family: 'Amatic SC';
+  font-size: 3em;
 }
 
 h2 {
@@ -44,7 +49,6 @@ h2, .product-header, .product-categories {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
 
 a {
   color: #7c7766;
@@ -62,6 +66,11 @@ p, .navbar {
 
 .text-muted {
   color: #888da0 !important;
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder, :-moz-placeholder {
+  color: #888da0 !important;
+   font-family: 'Josefin Sans', sans-serif;
 }
 
 .text-stronger {
@@ -86,25 +95,26 @@ div#content {
   margin-top: 100px;
 }
 
-.card-body {
+.card {
+  background-image: url("images/Owl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: auto;
+  border: 0;
+  border-radius: 0;
 }
 
-.card {
- background-color: rgba(255, 255, 255, 0.7);
- -webkit-transition: all .3s ease-in-out;
- -moz-transition: all .3s ease-in-out;
- -o-transition: all .3s ease-in-out;
- transition: transform .3s ease-in-out;
- border: none;
- }
+.card-body {
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.82);
+  border: none;
+  margin: 30px;
+}
 
- .card:hover {
-  transform: scale(1.04);
+.card-body:hover, .card:hover {
   border: 1px solid white;
   box-shadow: 0px 0px 1px 1px white;
-  height: 100%;
- }
+}
 
  .jumbotron-heading, .navbar {
   -webkit-transition: all .3s ease-in-out;
@@ -119,4 +129,28 @@ div#content {
 
 .navbar:hover {
   transform: scale(1.01);
+}
+
+.space {
+  height: 700px;
+}
+
+select:invalid,
+select option[value=""] {
+}
+
+.btn-light {
+  background-color: #505464;
+  border-color: #505464;
+  color: white;
+  font-family: 'Amatic SC';
+  font-size: 2em;
+}
+
+.marginSpace {
+  margin-top: 20px;
+}
+
+.mb-3, .my-3 {
+  margin-bottom: .5rem!important
 }
