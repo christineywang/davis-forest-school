@@ -1,0 +1,23 @@
+{
+  "name": "davis-forest-school",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dfs.js",
+  "scripts": {
+    "start": "http-server . -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christineywang/davis-forest-school.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christineywang/davis-forest-school/issues"
+  },
+  "homepage": "https://github.com/christineywang/davis-forest-school#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
