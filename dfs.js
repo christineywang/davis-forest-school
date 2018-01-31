@@ -27,5 +27,6 @@ $(function () {
 });
 
 function clickButton() {
-    alert("thank you!");
+  $("form#googleForm").css("display", "none");
+  $(".card-body div p").text("Thank you!");
 }
