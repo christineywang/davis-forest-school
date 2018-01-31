@@ -111,12 +111,7 @@ div#content {
   margin: 30px;
 }
 
-.card-body:hover, .card:hover {
-  border: 1px solid white;
-  box-shadow: 0px 0px 1px 1px white;
-}
-
- .jumbotron-heading, .navbar {
+ .jumbotron-heading, .navbar, .card-body, .card {
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
@@ -125,6 +120,10 @@ div#content {
 
 .jumbotron-heading:hover {
   transform: scale(1.1);
+}
+
+.card-body:hover, .card:hover {
+  transform: scale(1.01);
 }
 
 .navbar:hover {

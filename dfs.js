@@ -25,3 +25,7 @@ function postToGoogle(evt) {
 $(function () {
   $("#googleForm").submit(postToGoogle);
 });
+
+function clickButton() {
+    alert("thank you!");
+}
