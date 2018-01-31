@@ -30,3 +30,12 @@ function clickButton() {
   $("form#googleForm").css("display", "none");
   $(".card-body div p").text("Thank you!");
 }
+
+//try {
+  //eval('alert("Hello world)');
+//}
+//catch(error) {
+  //console.log(error);
+  // expected output: SyntaxError: unterminated string literal
+  // Note - error messages will vary depending on browser
+//}
