@@ -39,3 +39,8 @@ function clickButton() {
   // expected output: SyntaxError: unterminated string literal
   // Note - error messages will vary depending on browser
 //}
+
+// help the site show up in Google searches
+// add meta tags
+// open graph tags
+// Come up with text description for the website

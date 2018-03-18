@@ -27,21 +27,21 @@ i.fa.fa-pagelines {
 
 h1 {
   color: #505464 !important;
-  font-family: 'Amatic SC';
-  font-size: 6em;
-  margin-bottom: -30px;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 5em;
+  margin-bottom: -10px;
 }
 
 .submit-text {
   color: #505464 !important;
-  font-family: 'Amatic SC';
-  font-size: 3em;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 1.5em;
 }
 
 h2 {
   text-align: center;
   font-size: 2.5em;
-  font-family: 'Amatic SC';
+  font-family: 'Chelsea Market', cursive;
 }
 
 h2, .product-header, .product-categories {
@@ -70,7 +70,7 @@ p, .navbar {
 
 ::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder, :-moz-placeholder {
   color: #888da0 !important;
-   font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .text-stronger {
@@ -87,7 +87,7 @@ p, .navbar {
 }
 
 .moreSpace {
-  margin-top: 70px;
+  margin-top: 45px;
   padding-top: 40px;
 }
 
@@ -96,7 +96,8 @@ div#content {
 }
 
 .card {
-  background-image: url("images/Owl.jpg");
+  /*background-image: url("images/Owl.jpg");*/
+  background-color: rgba(255, 255, 255, 0.5);
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
@@ -106,7 +107,7 @@ div#content {
 
 .card-body {
   height: auto;
-  background-color: rgba(255, 255, 255, 0.82);
+  background-color: rgba(235, 234, 230, 0.85);
   border: none;
   margin: 30px;
 }
@@ -142,8 +143,8 @@ select option[value=""] {
   background-color: #505464;
   border-color: #505464;
   color: white;
-  font-family: 'Amatic SC';
-  font-size: 2em;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 1em;
 }
 
 .marginSpace {
@@ -157,9 +158,9 @@ select option[value=""] {
 @media only screen and (max-device-width: 480px) {
   h1 {
     color: #505464 !important;
-    font-family: 'Amatic SC';
-    font-size: 4em;
-    margin-bottom: -10px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 3em;
+    margin-bottom: -5px;
   }
  .moreSpace {
    margin-top: 10px;
@@ -175,6 +176,12 @@ select option[value=""] {
      margin-bottom: 70px;
    }
    h1 {
-     font-size: 5em;
+     font-size: 3em;
+   }
+   .moreSpace {
+     margin-top: 10px;
+   }
+   .lessSpace {
+     line-height: 1;
    }
 }
