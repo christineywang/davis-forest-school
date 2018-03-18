@@ -28,19 +28,6 @@ $(function () {
 
 function clickButton() {
   $("form#googleForm").css("display", "none");
-  $(".card-body div p").text("Thank you!");
+  $("p.submit-text").text("Thank you!");
+  $("p.lead").text("We will get back to you soon.")
 }
-
-//try {
-  //eval('alert("Hello world)');
-//}
-//catch(error) {
-  //console.log(error);
-  // expected output: SyntaxError: unterminated string literal
-  // Note - error messages will vary depending on browser
-//}
-
-// help the site show up in Google searches
-// add meta tags
-// open graph tags
-// Come up with text description for the website
