@@ -158,6 +158,15 @@ select option[value=""] {
   margin-bottom: .5rem!important
 }
 
+.form-control:focus, .custom-select:focus {
+  border-color: #FAE25E;
+  box-shadow: 0 0 0 0.2rem rgba(250, 226, 94, .25);
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+  outline: none;
+}
+
 @media only screen and (max-device-width: 480px) {
   h1 {
     color: #505464 !important;
