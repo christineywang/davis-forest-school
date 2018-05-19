@@ -9,19 +9,19 @@ body {
   background-position: center;
   height: 1000px;
   background-attachment: fixed;
-  opacity:0;
+  opacity: 0;
   transition: opacity 1.5s;
   -webkit-transition: opacity 2s; /* Safari */
 }
 
 i.fa.fa-pagelines {
-  color: #FAE25E
+  color: #fae25e;
 }
 
 .jumbotron {
- margin-top: 56px;
- background-color: #ebeae6;
- border-radius: 0;
+  margin-top: 56px;
+  background-color: #ebeae6;
+  border-radius: 0;
 }
 
 .bg-light {
@@ -47,7 +47,9 @@ h2 {
   font-family: 'Chelsea Market', cursive;
 }
 
-h2, .product-header, .product-categories {
+h2,
+.product-header,
+.product-categories {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -62,16 +64,19 @@ a:hover {
   color: #57575f;
 }
 
-p, .navbar {
+p,
+.navbar {
   font-family: 'Josefin Sans', sans-serif;
 }
-
 
 .text-muted {
   color: #888da0 !important;
 }
 
-::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder, :-moz-placeholder {
+::-webkit-input-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+:-moz-placeholder {
   color: #888da0 !important;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -85,7 +90,7 @@ p, .navbar {
 }
 
 .lessSpace {
-  line-height: .1;
+  line-height: 0.1;
   color: white !important;
 }
 
@@ -115,18 +120,22 @@ div#content {
   margin: 30px;
 }
 
- .jumbotron-heading, .navbar, .card-body, .card {
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: transform .3s ease-in-out;
- }
+.jumbotron-heading,
+.navbar,
+.card-body,
+.card {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
 
 .jumbotron-heading:hover {
   transform: scale(1.1);
 }
 
-.card-body:hover, .card:hover {
+.card-body:hover,
+.card:hover {
   transform: scale(1.01);
 }
 
@@ -139,7 +148,7 @@ div#content {
 }
 
 select:invalid,
-select option[value=""] {
+select option[value=''] {
 }
 
 .btn-light {
@@ -150,20 +159,35 @@ select option[value=""] {
   font-size: 1em;
 }
 
-.marginSpace {
+.margin-space {
   margin-top: 20px;
 }
 
-.mb-3, .my-3 {
-  margin-bottom: .5rem!important
+.img-space {
+  margin: 40px 0 40px 0;
 }
 
-.form-control:focus, .custom-select:focus {
-  border-color: #FAE25E;
-  box-shadow: 0 0 0 0.2rem rgba(250, 226, 94, .25);
+.space {
+  height: 40px;
 }
 
-.navbar-toggler:focus, .navbar-toggler:hover {
+.card-img {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 0.5rem !important;
+}
+
+.form-control:focus,
+.custom-select:focus {
+  border-color: #fae25e;
+  box-shadow: 0 0 0 0.2rem rgba(250, 226, 94, 0.25);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
   outline: none;
 }
 
@@ -174,26 +198,26 @@ select option[value=""] {
     font-size: 2em;
     margin-bottom: -5px;
   }
- .moreSpace {
-   margin-top: 10px;
- }
- div#content {
-   margin-top: 65px;
- }
+  .moreSpace {
+    margin-top: 10px;
+  }
+  div#content {
+    margin-top: 65px;
+  }
 }
 
-@media screen and (min-width:480px) and (max-width:767px){
-   div#content {
-     margin-top: 70px;
-     margin-bottom: 70px;
-   }
-   h1 {
-     font-size: 3em;
-   }
-   .moreSpace {
-     margin-top: 10px;
-   }
-   .lessSpace {
-     line-height: 1;
-   }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  div#content {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .moreSpace {
+    margin-top: 10px;
+  }
+  .lessSpace {
+    line-height: 1;
+  }
 }
