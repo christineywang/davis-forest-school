@@ -13,7 +13,7 @@ function postToGoogle(evt) {
     dataType: "xml",
     statusCode: {
       0: function() {
-        // Success message
+        
       },
       200: function() {
         // Success Message
